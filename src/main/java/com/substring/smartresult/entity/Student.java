@@ -1,7 +1,7 @@
-package com.substring.smartresult.entities;
+package com.substring.smartresult.entity;
 
 import jakarta.persistence.*;
-import org.yaml.snakeyaml.error.Mark;
+import com.substring.smartresult.entity.Mark;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

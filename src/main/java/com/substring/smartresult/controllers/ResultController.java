@@ -1,9 +1,10 @@
 package com.substring.smartresult.controllers;
 
-import com.substring.smartresult.entities.Mark;
-import com.substring.smartresult.entities.Student;
+
+import com.substring.smartresult.entity.Mark;
+import com.substring.smartresult.entity.Student;
 import com.substring.smartresult.payload.StudentForm;
-import com.substring.smartresult.service.ResultService;
+import com.substring.smartresult.Service.ResultService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

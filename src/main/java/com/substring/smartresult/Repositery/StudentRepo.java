@@ -1,6 +1,6 @@
-package com.substring.smartresult.repository;
+package com.substring.smartresult.Repositery;
 
-import com.substring.smartresult.entities.Student;
+import com.substring.smartresult.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentRepo extends JpaRepository<Student,String> {

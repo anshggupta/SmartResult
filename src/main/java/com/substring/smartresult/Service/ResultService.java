@@ -1,9 +1,9 @@
-package com.substring.smartresult.service;
+package com.substring.smartresult.Service;
 
-import com.substring.smartresult.entities.Mark;
-import com.substring.smartresult.entities.Student;
+import com.substring.smartresult.entity.Mark;
+import com.substring.smartresult.entity.Student;
 import com.substring.smartresult.payload.StudentForm;
-import com.substring.smartresult.repository.StudentRepo;
+import com.substring.smartresult.Repositery.StudentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
